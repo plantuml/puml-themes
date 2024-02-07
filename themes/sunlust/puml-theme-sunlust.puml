@@ -1,4 +1,8 @@
 @startuml
+!$THEME = 'sunlust'
+!if %not(%variable_exists("$BGCOLOR"))
+!$BGCOLOR = '#fdf6e3'
+!endif
 scale max 2000 * 2000
 !$colors = {
     "font"      : "#657b83",
